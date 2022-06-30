@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "es5",
+    "allowJs": true,
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "src",
+    "paths": {
+      "root": ["/"],
+      "root/*": ["/*"],
+      "constants": ["constants"],
+      "constants/*": ["constants/*"],
+      "components": ["components"],
+      "components/*": ["components/*"],
+      "utils": ["utils"],
+      "utils/*": ["utils/*"],
+      "types": ["types"],
+      "types/*": ["types/*"],
+      "hooks": ["hooks"],
+      "hooks/*": ["hooks/*"],
+      "assets": ["assets"],
+      "assets/*": ["assets/*"],
+      "styles": ["styles"],
+      "styles/*": ["styles/*"],
+      "secrets": ["secrets"],
+      "secrets/*": ["secrets/*"]
+    }
+  },
+  "include": ["src"],
+  "ignore": ["node_modules"]
+}

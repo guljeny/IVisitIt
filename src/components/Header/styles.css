@@ -1,0 +1,17 @@
+.header {
+  background: var(--color-1);
+  box-shadow: 0 0 6px rgba(var(--color-accent-rgb), 0.1);
+}
+
+.header > div {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-size: 25px;
+}

@@ -1,0 +1,18 @@
+:root {
+  /* light-green */
+  --color-background-rgb: 245, 252, 251;
+  --color-background: rgb(var(--color-background-rgb));
+
+  /* green */
+  --color-accent-rgb: 40, 191, 153;
+  --color-accent: rgb(var(--color-accent-rgb));
+
+  /* white */
+  --color-1-rgb: 252, 255, 254;
+  --color-1: rgb(var(--color-1-rgb));
+
+  /* red */
+  --color-2-rgb: 245, 61, 107;
+  --color-2: rgb(var(--color-2-rgb));
+}
+

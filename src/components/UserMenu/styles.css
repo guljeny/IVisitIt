@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+}
+
+.avatar {
+  width: 38px;
+  height: 38px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 38px;
+  border: none;
+}
+
+.menu {
+  position: absolute;
+  padding: 10px;
+  background: var(--color-1);
+  box-shadow: 0 2px 6px rgba(var(--color-accent-rgb), 0.4);
+  border-radius: 4px;
+  top: calc(100% + 5px);
+  right: 0;
+  z-index: 1;
+  display: none;
+}
+
+.menuVisible {
+  display: block;
+}
+
+.menuButton {
+  text-transform: none;
+  box-shadow: none;
+  text-decoration: none;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  text-align: left;
+  padding: 0;
+  margin: 0 0 10px;
+  color: var(--color-accent);
+  display: block;
+  white-space: nowrap;
+}
+
+.menuButton:last-child {
+  margin-bottom: 0;
+}
+
+.menuButton:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

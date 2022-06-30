@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  max-width: 320px;
+  margin: 20px auto 0;
+}
+
+.form {
+  margin-bottom: 10px;
+}
+
+.member {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--color-accent);
+  background: var(--color-1)
+}
+
+.member:last-child {
+  margin-bottom: 0;
+}
+
+.removeButton {
+  width: 20px;
+  height: 20px;
+  background: var(--color-2);
+  color: var(--color-1);
+  border: none;
+  border-radius: 50%;
+}
+
+.removeButton:hover {
+  cursor: pointer;
+}
