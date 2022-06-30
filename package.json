@@ -12,16 +12,16 @@
   "author": "Yauheni Hul",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^17.0.39",
+    "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "css-loader": "^6.6.0",
     "file-loader": "^6.2.0",
-    "firebase-tools": "^11.1.0",
+    "firebase-tools": "^11.2.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.5.3",
-    "source-map-loader": "^3.0.1",
-    "ts-loader": "^9.2.6",
-    "typescript": "^4.5.5",
+    "source-map-loader": "^4.0.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
     "webpack": "^5.68.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4"
@@ -29,8 +29,8 @@
   "dependencies": {
     "class-names": "^1.0.0",
     "firebase": "^9.8.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0"
   }

@@ -1,7 +1,7 @@
 # Task queue
 ## _Remember who will do next task_
 
-![Deploy](https://github.com/guljeny/TaskQueue/actions/workflows/firebase-hosting-merge.yml/badge.svg)
+![Deploy](https://github.com/guljeny/IVisitIt/actions/workflows/deploy-to-firebase.yml/badge.svg)
 
 [Open cloud app](https://taskqueue-3219f.web.app)
 
