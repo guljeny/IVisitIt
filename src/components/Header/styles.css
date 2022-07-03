@@ -10,6 +10,14 @@
   align-items: center;
 }
 
+.rigtPart a {
+  margin-right: 10px;
+}
+
+.rigtPart a:last-child {
+  margin-right: 0;
+}
+
 .logo {
   color: var(--color-accent);
   text-decoration: none;

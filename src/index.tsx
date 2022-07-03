@@ -1,7 +1,11 @@
-import ReactDOM from 'react-dom'
-import App from 'components/App'
+import { createRoot } from 'react-dom/client';
+import App from 'components/App';
+
+const container = document.getElementById('root')
+if (!container) throw new Error('Container not exists in the root');
+const root = createRoot(container);
 
 import 'styles/base.css'
 import 'styles/colors.css'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+root.render(<App />, )

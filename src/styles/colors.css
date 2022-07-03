@@ -1,10 +1,10 @@
 :root {
   /* light-green */
-  --color-background-rgb: 245, 252, 251;
+  --color-background-rgb: 23, 24, 36;
   --color-background: rgb(var(--color-background-rgb));
 
-  /* green */
-  --color-accent-rgb: 40, 191, 153;
+  /* blue */
+  --color-accent-rgb: 48, 75, 130;
   --color-accent: rgb(var(--color-accent-rgb));
 
   /* white */

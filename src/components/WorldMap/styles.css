@@ -1,0 +1,12 @@
+.worldMapContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.worldMapContainer svg {
+  width: 100%;
+  fill: none;
+  stroke: var(--color-1);
+}

@@ -4,6 +4,12 @@ body {
   background: var(--color-background);
 }
 
+:global(#root) {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 * {
   font-family: sans-serif;
   box-sizing: border-box;
