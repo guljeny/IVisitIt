@@ -1,21 +1,20 @@
-# Task queue
-## _Remember who will do next task_
+# I Visit It
+## _Countries where you have been_
 
 ![Deploy](https://github.com/guljeny/IVisitIt/actions/workflows/deploy-to-firebase.yml/badge.svg)
 
-[Open cloud app](https://taskqueue-3219f.web.app)
+[Open app](https://ivisitit.web.app/)
 
 ## How to use
 
 - Login
-- Add your members
-- Share link with team (no login required to see your members list)
-- Give task to first member in list and click on him (member card will down to end of list)
+- Press on country
+- Share link with anybody (no login required to see your map)
 - ✨ Enjoy! ✨
 
 ## Want to contribute? Great!
 
-Task queue uses Webpack-dev-server for fast developing.
+I Visit It uses Webpack-dev-server for fast developing.
 
 Open your favorite Terminal and run these commands.
 
