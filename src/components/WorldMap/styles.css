@@ -7,6 +7,15 @@
 
 .worldMapContainer svg {
   width: 100%;
-  fill: none;
+  fill: transparent;
   stroke: var(--color-1);
+  position: relative;
+}
+
+.hover {
+  stroke: var(--color-accent);
+}
+
+.visited {
+  fill: var(--color-2);
 }
